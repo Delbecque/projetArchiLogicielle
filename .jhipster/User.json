@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "first_name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "last_name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "psw",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "basket",
+            "fieldType": "Integer"
+        }
+    ],
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "user",
+    "pagination": "pager",
+    "microserviceName": "projetArchi",
+    "searchEngine": false
+}
